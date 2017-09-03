@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 int a = Integer.parseInt(tx1.getText().toString());
                 int b = Integer.parseInt(tx3.getText().toString());
 
-                tx5.setText(String.valueOf(a + b));
+                tx5.setText(String.valueOf(a * b));
             }
         });
     }
